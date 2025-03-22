@@ -1,13 +1,14 @@
 <template>
     <div class="p-6">
-        <h1 class="text-2xl font-bold">Login / Sign Up</h1>
+        <AuthForm />
     </div>
 </template>
 
 <script>
+import AuthForm from "../components/AuthForm.vue";
 export default {
-
-}
+    components: { AuthForm }
+};
 </script>
 
 <style></style>
